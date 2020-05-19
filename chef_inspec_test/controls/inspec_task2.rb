@@ -7,4 +7,4 @@ control "cis centos 7" do
     end
 end
 
-
+inspec exec .\chef_inspec_test\controls\inspec_task2.rb -t ssh://rr185257:Cricket123456!!@40.121.206.211
