@@ -1,4 +1,4 @@
-control "cis-1-6-3" do
+control "cis-1-6-3" do  # This is an example comment
   impact 1.0
   title "1.6.3 Enable Randomized Virtual Memory Region Placement (Scored)"
   desc "Set the system flag to force randomized virtual memory region placement."
