@@ -16,7 +16,7 @@ control "CIS standard - 2" do    # Checks if the GPG key is globally activated
     end
 end
 
-control "CIS standard - 3" do      # Check if the HTTP is not installed
+control "CIS standard - 3" do      # Check if the HTTP is not installed or not
     impact 1.2
     title "3.11 Remove HTTP Server (Not Scored)"
     desc "HTTP or web servers provide the ability to host web site content. The default HTTP server shipped with CentOS Linux is Apache." 
@@ -24,7 +24,6 @@ control "CIS standard - 3" do      # Check if the HTTP is not installed
       it { should_not be_installed }
     end
 end
-
    
 control "CIS standard - 4" do     # Checks if the 
     impact 1.3
